@@ -54,7 +54,13 @@ body {
 
 .row-zero {
     margin-top: -20%;
-    margin-left: 33%;
+    margin-left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.row-zero {
+    text-align: center;
 }
 
 .row-one {
@@ -66,10 +72,6 @@ body {
 .row-two {
     grid-area: mid;
     background: var(--white);
-}
-
-.row-two p {
-    text-align: center;
 }
 
 .row-three {
